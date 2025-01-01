@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BODA ABHISHEK NAIK</title>
+
+    <link rel='stylesheet' href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+<!--Header starting-->
+<header>
+    <div id='menu-bar' class='fas fa-bars'></div>
+
+    <a href="#" class="logo"><span>ABHI T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#book">Book</a>
+        <a href="#packages">Packages</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="icons">
+        <i class="fa fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+    
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+</header>
+<!--Header ending-->
+
+
+
+<!--login form container-->
+
+<div class="login-form-container">
+
+    <i class="fas fa-time" id="form-close"></i>
+
+    <form action=''>
+        <h3>login</h3>
+        <input type='Email' class='box' placeholder='Enter you Email...'>
+        <input type='Password' class='box' placeholder='Enter you Password...'>
+        <input type='Submit' value='Login Now'class='btn'>
+        <input type='checkbox' id='remember'>
+        <label for='remember'>Remember me</label>
+        <p>Forget Password?<a href='#'>Click Here </a> </p>
+        <p>Don't Have Account?<a href='#'>Register Now </a> </p>
+
+    </form>
+</div>
+<!--login form ends-->
+
+
+<!--Home section starts-->
+
+<section class='home'id='home'>
+    <div class='content'>
+        <marquee><h3>Don’t tell me how educated you are, tell me how much you have travelled </h3></marquee>
+        <p> Travel is to discover that everyone is wrong about other countries.<p>
+        <a href='#' class='btn'>Explore More</a>
+    </div>
+
+    <div class='controls'>
+    <span class='vid-btn active' data-src='images\video_1.mp4'></span>
+    <span class='vid-btn' data-src='images\video_2.mp4'></span>
+    <span class='vid-btn' data-src='images\video_3.mp4'></span>
+    <span class='vid-btn' data-src='images\video_4.mp4'></span>
+    <span class='vid-btn' data-src='images\video_5.mp4'></span>
+    <span class='vid-btn' data-src='images\video_6.mp4'></span>
+    <span class='vid-btn' data-src='images\video_7.mp4'></span>
+   
+    </div>
+
+    <div class='video-container'>
+        <video src='images\video_7.mp4' id='video-slider' loop autoplay muted></video>
+    </div>
+
+
+</section>
+
+<!--Home section ends-->
+
+<!--book section starts-->
+
+<section class='book' id='book'>
+    <h1 class='heading'>
+        <span>B</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class='space'></span>
+        <span>N</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+
+<!--Mistakes image unable to reduce size in css line numbers from 328-->
+<!--
+Total mistakes 
+1] unable to display search bar in head seaction
+2] unable to get responsive website in mbl the toogle is unable to display
+3 unable to display login form in head seaction
+4]unable to reduce img size 
+5]unable to reduce the form details destination 
+6] unable to slide show the reviews
+7] unable to get resposive logo in above footer section 
+these are the issues im facing in this project
+-->
+    <div class='row'>
+        <div class='image'>
+            <img src='images\img.jpg' alt='none'>
+        </div>
+
+        <form action=''>
+            <div class='inputBox'>
+                <h3>Where To Go</h3>
+                <input type='text' name='destination' placeholder='Enter Destination'>
+            </div>
+
+            <div class='inputBox'>
+                <h3>Arrivals</h3>
+                <input type='date' name='destination' placeholder='Enter Destination'>
+            </div>
+
+            <div class='inputBox'>
+                <h3>How Many</h3>
+                <input type='number' name='destination' placeholder='Number Of Guests'>
+            </div>
+
+            <div class='inputBox'>
+                <h3>Leaving </h3>
+                <input type='date' name='destination'>
+            </div>
+            <input type='Submit' class='btn' value='Book Now'>    
+        </form>
+
+    </div>
+
+</section>
+
+<!--Book section ends-->
+
+<!--packages section starts-->
+
+<section class='packages' id='packages'>
+    <h1 class='heading'>
+        <span>P</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+<div class='box-container'>
+
+    <div class='box'>
+        <img src='images\pack_1.jpg'alt='none'>
+        <div class='content'>
+            <h3><i class='fas fa-map-marker-alt'></i> Mumbai</h3>
+            <p>
+            Stok Kangri Peak that displays multiple thrills along the way and <br>towers at a height of 6,000m. 
+            Located in the dreamy destination<br> 
+            Best Time to Visit: Mid June – September<br>
+            Nearest Airport: Kushok Bakula Rimpochee Airport, Leh
+            </p>
+            <div class='stars'>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='far fa-star'></i>
+            </div>
+            <div class='prices'> $500<span>$600 </span></div>
+            <a href='#' class='btn'>Book Now</a>
+        </div>
+    </div>
+
+    <div class='box'>
+        <img src='images\pack_2.jpg'alt='none'>
+        <div class='content'>
+            <h3><i class='fas fa-map-marker-alt'></i>Agra</h3>
+            <p>
+                The Taj Mahal is a famous mausoleum complex in Agra, India,<br>
+                 built by the Mughal emperor Shah Jahan in the 17th century.<br>
+                  It is one of the most outstanding examples of Mughal architecture,<br>
+                Best Time to Visit: December<br>
+                Nearest Railways:Agra Cantt 
+            </p>
+            <div class='stars'>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='far fa-star'></i>
+            </div>
+            <div class='prices'> $200<span>$400 </span></div>
+            <a href='#' class='btn'>Book Now</a>
+        </div>
+    </div>
+
+    <div class='box'>
+        <img src='images\pack_3.jpg'alt='none'>
+        <div class='content'>
+            <h3><i class='fas fa-map-marker-alt'></i> Jaipur</h3>
+            <p>
+                Jaipur, city, capital of Rajasthan state, northwestern India.<br>
+                 It is situated in the east-central part of the state, roughly <br>equidistant from Alwar<br>
+                 Best Time to Visit: January<br>
+                Nearest Airport: Jaipur
+            </p>
+            <div class='stars'>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='far fa-star'></i>
+            </div>
+            <div class='prices'> $600<span>$900 </span></div>
+            <a href='#' class='btn'>Book Now</a>
+        </div>
+    </div>
+
+
+    <div class='box'>
+        <img src='images\pack_4.jpg'alt='none'>
+        <div class='content'>
+            <h3><i class='fas fa-map-marker-alt'></i> Mumbai</h3>
+            <p>
+                Shivaji (born February 19, 1630, or April 1627, Shivner, Poona<br> [now Pune]
+                , India—died April 3, 1680, Raigad) was an individual <br>who opposed the Mughal dynasty
+                and founded the Maratha <br>kingdom in 17th-century India. His kingdom’s security<br>
+                was based on religious toleration and on the functional integration <br>of Brahmans<br>
+                Best Time to Visit: All Days<br>
+                Nearest Railways:Mumbai
+            </p>
+            <div class='stars'>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='far fa-star'></i>
+            </div>
+            <div class='prices'> $550<span>$950 </span></div>
+            <a href='#' class='btn'>Book Now</a>
+        </div>
+    </div> 
+    
+    <div class='box'>
+        <img src='images\pack_5.jpg'alt='none'>
+        <div class='content'>
+            <h3><i class='fas fa-map-marker-alt'></i> Thousand Pillar Temple</h3>
+            <p>
+
+
+                The Thousand Pillar Temple is a historic temple located in the<br>
+                 town of Hanamakonda, Telangana State, India. It stands out to be <br>
+                 a masterpiece and achieved major heights in terms of architectural <br>
+                 skills by the ancient Kakatiya.<br>
+                Best Time to Visit: All Days<br>
+                Nearest Railways:warangal
+            </p>
+            <div class='stars'>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='far fa-star'></i>
+            </div>
+            <div class='prices'> $150<span>$350 </span></div>
+            <a href='#' class='btn'>Book Now</a>
+        </div>
+    </div>
+
+    <div class='box'>
+        <img src='images\pack_6.jpg'alt='none'>
+        <div class='content'>
+            <h3><i class='fas fa-map-marker-alt'></i>Golconda Fort</h3>
+            <p>
+                Golconda Fort Hyderabad is a historic fort located in Telangana,<br>
+                The fort is one of the most popular tourist attractions in<br>
+                Hyderabad and is renowned for its unique architecture and <br>
+                rich history. The fort was originally built in the 13th<br>
+                century by the Kakatiya dynasty but was later expanded<br>
+                by the Qutub Shahi dynasty in...<br>
+                Best Time to Visit: All Days<br>
+                Nearest Railways:Hyderabad Deccan
+            </p>
+            <div class='stars'>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='far fa-star'></i>
+            </div>
+            <div class='prices'> $650<span>$850 </span></div>
+            <a href='#' class='btn'>Book Now</a>
+        </div>
+    </div>
+    
+</div>
+
+</section>
+<!--packages section ends-->
+
+<!--services section starts-->
+<section class='services' id='services'>
+    <h1 class='heading'>
+        <span>S</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class='box-container'>
+        <div class='box'>
+            <i class='fas fa-hotel'></i>
+            <h3>Affordable hotels</h3>
+            <p>
+                “A hotel is a storybook, and each guest adds a new chapter to its tale.” <br>
+                “In the right hotel, you feel like a VIP, and in the best hotel, you feel like family.” <br>
+                “A hotel should be an escape from the ordinary into the extraordinary.”
+            </p>
+        </div>
+
+        <div class='box'>
+            <i class='fas fa-utensils'></i>
+            <h3>Foods And Drinks</h3>
+            <p>
+                "If you really want to make a friend, go to someone's house and eat with him...<br>
+                 the people who give you their food give you their heart." 
+            </p>
+        </div>
+
+        <div class='box'>
+            <i class='fas fa-bullhorn'></i>
+            <h3>Safety Guide</h3>
+            <p> 
+                1.Choose Reputable Hotels: Your first line of defense is choosing a reputable hotel. Research customer reviews <br>
+                and ratings to gauge the safety and security of your potential lodgings. Opt for hotels with good security measures in place.
+                <br><br>
+
+                2.Reserve Upper-Floor Rooms: Whenever possible, request a room on a higher floor. Ground-level rooms are more susceptible to <br>
+                break-ins,while rooms on upper floors are generally safer.<br><br>
+
+                3.Check the Door Lock: Before unpacking, inspect the door lock, peephole, and deadbolt. Ensure they work properly.<br>
+                If you notice any issues, report them to hotel staff for immediate repair or room change.<br><br>
+
+            </p>
+        </div>
+
+        <div class='box'>
+            <i class='fas fa-globe-asia'></i>
+            <h3>Around the India</h3>
+            <p>
+                India, country that occupies the greater part of South Asia. It is made up of 29 states and eight union territories,<br>
+                and its national capital is New Delhi, built in the 20th century just south of the historic hub of Old Delhi to serve<br>
+                 as India’s administrative center. Its government is a constitutional republic that represents a highly diverse <br>
+                 population consisting of thousands of ethnic groups and hundreds of languages. India became the world’s most populous <br>
+                 country in 2023, according to estimates by the United Nations.
+            </p>
+        </div>
+
+        <div class='box'>
+``            <i class='fas fa-plane'></i>
+            <h3>Safest Travels</h3>
+            <p>
+                Abhi Travel is one of the fastest and most reliable travel services in India. It offers both railway and flight<br>
+                booking options, making travel across India easy and convenient. Known for its excellent customer service, <br>
+                Abhi Travel ensures that travelers enjoy a smooth and hassle-free experience, whether they're exploring local<br>
+                destinations or traveling long distances. With a strong focus on providing great service, it has become a preferred <br>
+                choice for many travelers within India.<br>
+            </p>
+        </div>
+
+        <div class='box'>
+            <i class='fas fa-hiking'></i>
+            <h3>Adventures</h3>
+            <p>
+                For those seeking adventure, Abhi Travel has exciting packages that cover India’s most thrilling destinations. <br>
+                From the snowy mountains of the Himalayas to the sunny beaches of Goa, travelers can explore diverse landscapes<br>
+                 and exciting activities. Whether you’re looking to relax or seek adventure, Abhi Travel makes it easy to experience <br>
+                 the beauty and excitement of India.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!--services section ends-->
+
+
+<!--Gallery Starts-->
+    <section class='gallery' id='gallery'>
+        <h1 class='heading'>
+            <span>G</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+        <div class='box-container'>
+            <div class='box'>
+                <img src='images\gal-1.jpg' alt='none'>
+                <div class='content'>
+                    <h3>Humayun's Tomb</h3>
+                    <p>
+                        The construction of Humayun's tomb was started in 1565 A.D by the Persian archtect Mirak Mirza Ghiyath.<br>
+                        Due to the untimely death of Mirak Mirza Ghiyath, his son Sayyid Muhammad ibn Mirak Ghiyath Ud Din<br>
+                        completed the construction of the tomb. Humayun's tombs' construction was completed in the year 1572 A.D.
+                    </p>
+                    <a href='#' class='btn'>See More</a>
+                </div>
+            </div>
+
+
+            <div class='box'>
+                <img src='images\gal-2.jpg' alt='none'>
+                <div class='content'>
+                    <h3>Jal Mahal</h3>
+                    <p>
+                        Situated smack in the middle of Man Sagar Lake, on the road that runs between Jaipur and Amber Fort<br>
+                         (Amer Fort), the 18th-century Jal Mahal (Water Palace) is a gorgeous red sandstone palace that’s <br>
+                         accessible only by boat. Though currently closed to visitors, the dreamlike structure is still an incredible sight<br>
+                          to behold from shore.
+
+
+                    </p>
+                    <a href='#' class='btn'>See More</a>
+                </div>   
+             </div>
+
+             <div class='box'>
+                <img src='images\gal-3.jpg' alt='none'>
+                <div class='content'>
+                    <h3>Golden Temple</h3>
+                    <p>
+                        Learn about Sikhism and about the history of Amritsar's Golden Temple by experiencing the famous gurudwara with a professional guide.<br>
+                        On this private tour, you'll walk through the temple complex, see where the holy book is kept in the evening, and visit the langar,<br>
+                        or community kitchen, where food is produced and served for all who want it, free or by donation only.<br>
+                        Read more about - Amritsar Golden Temple Tour
+                    </p>
+                    <a href='#' class='btn'>See More</a>
+                </div>   
+             </div>
+
+
+             <div class='box'>
+                <img src='images\gal-4.jpg' alt='none'>
+                <div class='content'>
+                    <h3>Bada Imambara</h3>
+                    <p>
+                        Experience Lucknow with your own private chauffeur-driven vehicle with this day tour, which hits up most of the<br>
+                        city's most famous attractions. Your driver will pick you up and take you to see highlights such as the Bara <br>
+                        and Chhota Imambaras, Rumi Gate, and the British Residency, with time left over to try the city's famous local<br>
+                        kebabs or shop for Lucknow’s signature chikan embroidery.
+                    </p>
+                    <a href='#' class='btn'>See More</a>
+                </div>   
+             </div>
+
+
+             <div class='box'>
+                <img src='images\gal-5.jpg' alt='none'>
+                <div class='content'>
+                    <h3>Cathedral of Saint Joseph and Saint Philomena </h3>
+                    <p>
+                        Mysuru: The foundation for the new entrance gate of St. Joseph’s Cathedral, (St. Philomena’s Church),<br>
+                        was laid in the presence of the Arch Bishop Emeritus and the Apostolic Administrator of Mysore Diocese<br>
+                        Most Rev. Dr. Bernard Moras, Vicar General of Mysore Diocese Rev.
+
+
+                    </p>
+                    <a href='#' class='btn'>See More</a>
+                </div>   
+             </div>
+
+             <div class='box'>
+                <img src='images\gal-6.jpg' alt='none'>
+                <div class='content'>
+                    <h3>Gangtok</h3>
+                    <p>
+                        A beautiful state in the Eastern Himalayas, known for its natural beauty, monasteries, and adventure<br>
+                        activities. The capital, Gangtok, is a hub for exploring nearby attractions like Tsomgo Lake and the Yumthang Valley.
+ 
+                    </p>
+                    <a href='#' class='btn'>See More</a>
+                </div>   
+             </div>
+
+             <div class='box'>
+                <img src='images\gal-7.jpg' alt='none'>
+                <div class='content'>
+                    <h3>Himalayas Hills</h3>
+                    <p>
+                        A charming hill station in the northern Himalayas, known for its colonial architecture, scenic views,<br>
+                         and pleasant climate. Popular attractions include Mall Road, Jakhoo Temple, and Kufri.
+
+                    </p>
+                    <a href='#' class='btn'>See More</a>
+                </div>   
+             </div>
+
+
+             <div class='box'>
+                <img src='images\gal-8.jpg' alt='none'>
+                <div class='content'>
+                    <h3>Kanchenjunga</h3>
+                    <p>
+                        Known for its tea plantations, breathtaking views of the Kanchenjunga, and the famous Darjeeling <br>
+                        Himalayan Railway (Toy Train). The town also offers a unique blend of Tibetan and British influences.
+
+                    </p>
+                    <a href='#' class='btn'>See More</a>
+                </div>   
+             </div>
+
+        </div>
+    </section>
+
+<!--Gallery ends-->
+
+<!--Review section starts-->
+
+<section class='review' id='review'>
+    
+    <div class='review-box'>
+        <h1 class='heading'>
+            <span>R</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+        <div class=' swiper-container review-slider'>
+            <div class='swiper-wrapper'>
+
+                    <div class='swiper-slider'>
+                        <div class='box'>
+                            <img src='images\rev-1.jpg' alt='none'>
+                            <h3> Abhi</h3>
+                            <p>
+                                The Taj Mahal is a stunning white marble monument, known for its beauty and grandeur. <br>
+                                It’s a must-visit for anyone traveling to India. The intricate designs and peaceful surroundings make it <br>
+                                one of the world’s most famous landmarks.
+                            </p>
+                            <div class='stars'>
+                                <i class='fas fa-star'></i>
+                                <i class='fas fa-star'></i>
+                                <i class='fas fa-star'></i>
+                                <i class='fas fa-star'></i>
+                                <i class='fas fa-star'></i>
+                                <i class='fas fa-star'></i>
+                                <i class='far fa-star'></i>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+
+            <div class='swiper-slider'>
+                <div class='box'>
+                    <img src='images\rev-2.jpg' alt='none'>
+                    <h3>Aaradhya</h3>
+                    <p>
+                        Jaipur, also known as the Pink City, is rich in history and culture. The City Palace, Amber Fort,<br>
+                         and Hawa Mahal are highlights. The vibrant markets and traditional Rajasthani food add to the charm of the city.
+                    </p>
+                    <div class='stars'>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='far fa-star'></i>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <div class='swiper-slider'>
+        <div class='box'>
+            <img src='images\rev-3.jpg' alt='none'>
+            <h3>Pawan kalyan</h3>
+            <p>
+                Varanasi is one of the oldest cities in the world. It’s famous for its spiritual significance and the ghats <br>
+                along the Ganges River. Watching the evening aarti ceremony is a truly unforgettable experience.
+            </p>
+            <div class='stars'>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='fas fa-star'></i>
+                <i class='far fa-star'></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div class='swiper-slider'>
+            <div class='box'>
+                <img src='images\rev-4.jpg' alt='none'>
+                <h3> Saanvi</h3>
+                <p>
+                    The Kerala Backwaters offer a serene and peaceful experience. You can enjoy a relaxing houseboat ride through <br>
+                    the lush green canals. The natural beauty, calm waters, and village life make it a perfect escape from busy city life.
+                </p>
+                <div class='stars'>
+                    <i class='fas fa-star'></i>
+                    <i class='fas fa-star'></i>
+                    <i class='fas fa-star'></i>
+                    <i class='fas fa-star'></i>
+                    <i class='fas fa-star'></i>
+                    <i class='fas fa-star'></i>
+                    <i class='far fa-star'></i>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+        <div class='swiper-slider'>
+            <div class='box'>
+                <img src='images\rev-5.jpg' alt='none'>
+                <h3>Ishita</h3>
+                <p>
+                    Goa is known for its beautiful beaches, vibrant nightlife, and Portuguese architecture. <br>
+                    It’s perfect for both relaxation and adventure. Whether you want to lounge by the sea or explore old forts,<br>
+                     Goa offers something for everyone.
+                </p>
+                <div class='stars'>
+                    <i class='fas fa-star'></i>
+                    <i class='fas fa-star'></i>
+                    <i class='fas fa-star'></i>
+                    <i class='fas fa-star'></i>
+                    <i class='fas fa-star'></i>
+                    <i class='fas fa-star'></i>
+                    <i class='far fa-star'></i>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+<div class='swiper-slider'>
+    <div class='box'>
+        <img src='images\rev-6.jpg' alt='none'>
+        <h3>Anaya</h3>
+        <p>
+            Leh-Ladakh is a paradise for adventure seekers and nature lovers. The breathtaking landscapes, rugged mountains,<br>
+            and monasteries make it a unique destination. It’s perfect for trekking, biking, or simply soaking in the serene atmosphere.
+        </p>
+        <div class='stars'>
+            <i class='fas fa-star'></i>
+            <i class='fas fa-star'></i>
+            <i class='fas fa-star'></i>
+            <i class='fas fa-star'></i>
+            <i class='fas fa-star'></i>
+            <i class='fas fa-star'></i>
+            <i class='far fa-star'></i>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+    </div>
+</section>
+
+<!--Review section ends-->
+
+
+<!--section contact starts-->
+
+<section class='contact'>
+    <h1 class ='heading'>
+        <span>C</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class='row'>
+        <div class=image'>
+            <img src='images\con-1.jpg' alt='none'>
+        </div>
+
+        <form action =''>
+            <div class='inputBox'>
+                <input type='text' placeholder='Name'>
+                <input type='email' placeholder='Email...'>
+            </div>
+
+            <div class='inputBox'>
+                <input type='number' placeholder='Number'>
+                <input type='text' placeholder='Subject'>
+            </div>
+
+            <textarea name='' placeholder='Message' id='' cols='30' rows='10'></textarea>
+            <input type='Submit' class='btn' value='send Message'>
+        </form>
+
+    </div>
+
+</section>
+
+<!--section contact ends-->
+
+<!--Brand section starts-->
+
+<section class='brand-container'>
+
+    <div class ='swiper-container brand-slider'>
+        <div class='swiper-wrapper'>
+        
+            <div class='swiper-slide'>
+                <img src='images/bra-3.jpg' alt='none'>
+            </div>
+
+            
+        </div>
+    
+    </div>
+
+</section>
+
+<!--Brand section ends-->
+
+<!--footer starts-->
+<section class ='footer'>
+    <div class='box-container'>
+        <div class='box'>
+            <h3>About Us </h3>
+            <p>
+                Abhi's Travel, we specialize in providing unforgettable travel experiences across India.<br>
+                Whether you're exploring the bustling streets of Delhi, the serene beaches of Goa, or the majestic palaces of Rajasthan,<br>
+                we make your journey smooth, safe, and memorable.<br>
+                Our goal is to offer personalized tours that match your interests, whether it's history, culture, adventure, or relaxation.<br>
+                With local expertise and a passion for travel, we ensure that every trip is hassle-free and enjoyable. <br>
+                Let us be your guide to discovering the beauty and diversity of India!
+            </p>
+        </div>
+
+
+        <div class='box'>
+            <h3> Branch Locations </h3>
+                <a href='#'>Telangana</a>
+                <a href='#'>Rajasthan</a>
+                <a href='#'>Nagaland</a>
+                <a href='#'>kashmir</a>
+                <a href='#'>Tamil Nadu</a>
+                <a href='#'>Madhya Pradesh</a>
+                <a href='#'>Himachal Pradesh</a>
+                <a href='#'>Gujarath</a>
+
+
+        </div>
+
+
+        <div class='box'>
+            <h3> Quick Links </h3>
+                <a href='#'>home</a>
+                <a href='#'>book</a>
+                <a href='#'>packages</a>
+                <a hreg='#'>services</a>
+                <a href='#'>gallery</a>
+                <a href='#'>review</a>
+                <a href='#'>contact</a>         
+        </div>
+        
+
+        <div class='box'>
+            <h3>Follow Us </h3>
+                <a href='#'>Facebook</a>
+                <a href='#'>Instagram</a>
+                <a href='#'>X.com</a>
+                <a hreg='#'>LinkedIn</a>        
+        </div>
+    </div>
+
+
+    <h1 class='credit'> Created By <span> Boda Abhishek Naik |</span>All rights reserved!.. </h1>
+
+</section>
+
+
+<!--footer ends-->
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"> </script>
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
